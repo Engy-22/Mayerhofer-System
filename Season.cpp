@@ -12,6 +12,15 @@ Season::Season(std::string team_file, std::string scores_file)
 	read_scores(scores_file);
 }
 
+Season::~Season() {
+	for (auto& game : games) {
+		delete game;
+	}
+	for (auto& team : teams) {
+		delete team.second;  // team is a key-value pairing, team.second is the pointer
+	}
+}
+
 void Season::print_FBS_teams_alphabetical_order() {
 	for (auto const& team : teams) {
 		if (team.second->get_conf_type() != 'F') {
@@ -105,6 +114,7 @@ void Season::create_game(std::istringstream& stream, std::string token, char del
 	Team* winning_team = teams.at(winner_name);
 	Team* losing_team = teams.at(loser_name);
 	Game* game = new Game(winning_team, losing_team, winner_score, loser_score);
+	games.push_back(game);
 	
 	winning_team->play_game(game);
 	losing_team->play_game(game);

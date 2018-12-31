@@ -8,11 +8,13 @@ class Season
 {
 public:
 	Season(std::string team_file, std::string scores_file);
+	~Season();
 	void print_FBS_teams_alphabetical_order();
 	void print_mayerhofer_rankings();
 
 private:
 	std::map<std::string, Team*> teams;
+	std::vector<Game*> games;
 	std::vector<Team*> mayerhofer_rankings;
 
 	void read_teams(std::string file_name);
