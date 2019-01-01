@@ -3,7 +3,7 @@ College football ranking algorithm. Ranks teams based on who they play (power 5,
 
 # Ways to run:
 * Print FBS rankings:
-	* Run ./mayerhofer\_rankings &lt;team\_file> &lt;scores\_file
+	* Run ./mayerhofer\_rankings &lt;team\_file> &lt;scores\_file>
 	* Prints the rankings of all the P5/G5 teams in the &lt;team\_file>
 * Predict winners of future games:
 	* Run ./mayerhofer\_rankings &lt;team\_file> &lt;scores\_file> &lt;predictions\_file> P
