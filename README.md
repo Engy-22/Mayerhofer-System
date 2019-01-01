@@ -32,8 +32,4 @@ College football ranking algorithm. Ranks teams based on who they play (power 5,
 1. As you did for the Scores file, go to sports-reference cfb and get the games you want to predict
 2. Copy the games into the Predictions file
 3. Make sure that the games in the prediction file all come after the games in the Scores file
-
-## Results file
-1. As you did for the Scores file, go to sports-reference fb and get the games you want to check were predicted right or wrong
-2. Copy the games into the Prediction_Results file
-3. Make sure that the games in the results file all come after the games in the Scores file
+4. If you want to check prediction accuracy, make sure the games you copied into the Predictions file have scores
