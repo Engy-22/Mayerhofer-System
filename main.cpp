@@ -8,7 +8,7 @@ void check_argc(int argc) {
 		std::cerr << "Usage:" << std::endl;
 		std::cerr << "Output rankings: ./mayerhofer_rankings <team_file> <scores_file>" << std::endl;
 		std::cerr << "Predict games: ./mayerhofer_rankings <team_file> <scores_file> <predictions_file> P" << std::endl;
-		std::cerr << "Check prediction success: ./mayerhofer_rankings <team_file> <scores_file> R" << std::endl;
+		std::cerr << "Check prediction success: ./mayerhofer_rankings <team_file> <scores_file> <results_file> R" << std::endl;
 		exit(1);
 	}
 }
