@@ -40,6 +40,72 @@ void Season::print_mayerhofer_rankings() {
 	}
 }
 
+void Season::predict_games(std::string future_games_file) {
+	std::ifstream file;
+	std::string line;
+	open_file(file, future_games_file);
+
+	while (getline(file, line)) {
+		std::istringstream line_stream(line);
+		std::string token;
+		int i = 0;  // i refers to the index of the token on each line (separated by commas)
+		while (getline(line_stream, token, ',')) {
+			if (i == 5) {  // reached the first team name token
+				std::string team_1 = read_team_name_from_scores_file(token);
+				for (int i = 0; i < 3; i++) { getline(line_stream, token, ','); }  // loop over unneccessary info
+				std::string team_2 = read_team_name_from_scores_file(token);
+
+				if (teams.at(team_1)->calculate_ranking_points() > teams.at(team_2)->calculate_ranking_points()) {
+					std::cout << team_1 << " vs " << team_2 << ": " << team_1 << std::endl;
+				} else {
+					std::cout << team_1 << " vs " << team_2 << ": " << team_2 << std::endl;
+				}
+				break;
+			}
+
+			i++;
+		}
+	}
+
+}
+
+void Season::check_prediction_accuracy(std::string results_file) {
+	std::ifstream file;
+	std::string line;
+	open_file(file, results_file);
+
+	int num_correct = 0;
+	int num_incorrect = 0;
+
+	while (getline(file, line)) {
+		std::istringstream line_stream(line);
+		std::string token;
+		int i = 0;
+		while (getline(line_stream, token, ',')) {
+			if (i == 5) {
+				std::string winner_name, loser_name;
+				int winner_score, loser_score;
+
+				read_game(winner_name, winner_score, loser_name, loser_score, line_stream, token, ',');
+
+				if (teams.at(winner_name)->calculate_ranking_points() > teams.at(loser_name)->calculate_ranking_points()) {
+					num_correct++;
+					std::cout << winner_name << " vs " << loser_name << ": " << winner_name 	
+					<< " Correct (" << num_correct << "-" << num_incorrect << ")" << std::endl;
+
+				} else {
+					num_incorrect++;
+					std::cout << winner_name << " vs " << loser_name << ": " << loser_name 
+					<< " Incorrect (" << num_correct << "-" << num_incorrect << ")" << std::endl;
+				}
+				break;
+			}
+			
+			i++;
+		}
+	}
+}
+
 void Season::read_teams(std::string file_name) {
 	std::ifstream file;
 	std::string line;
@@ -97,19 +163,15 @@ char Season::get_conf_type(const std::string& line) {
 void Season::open_file(std::ifstream& file, std::string file_name) {
 	file.open(file_name);
 	if (!file.is_open()) {
-		throw_file_error();
+		throw_file_error(file_name);
 	}
 }
 
 void Season::create_game(std::istringstream& stream, std::string token, char delimiter) {
-	std::string winner_name = read_team_name_from_scores_file(token);
-	getline(stream, token, delimiter);  // get winning score
-	int winner_score = std::stoi(token);
-	getline(stream, token, delimiter);  // filter out next token
-	getline(stream, token, delimiter);  // get losing team name
-	std::string loser_name = read_team_name_from_scores_file(token);
-	getline(stream, token, delimiter);  // get losing team score
-	int loser_score = std::stoi(token);
+	std::string winner_name, loser_name;
+	int winner_score, loser_score;
+
+	read_game(winner_name, winner_score, loser_name, loser_score, stream, token, delimiter);
 
 	Team* winning_team = teams.at(winner_name);
 	Team* losing_team = teams.at(loser_name);
@@ -121,6 +183,18 @@ void Season::create_game(std::istringstream& stream, std::string token, char del
 
 }
 
+void Season::read_game(std::string& winner_name, int& winner_score, std::string& loser_name, int& loser_score, 
+std::istringstream& stream, std::string token, char delimiter) {
+	winner_name = read_team_name_from_scores_file(token);
+	getline(stream, token, delimiter);  // get winning score
+	winner_score = std::stoi(token);
+	getline(stream, token, delimiter);  // filter out next token
+	getline(stream, token, delimiter);  // get losing team name
+	loser_name = read_team_name_from_scores_file(token);
+	getline(stream, token, delimiter);  // get losing team score
+	loser_score = std::stoi(token);
+}
+
 std::string Season::read_team_name_from_scores_file(const std::string& token) {
 	if (token[0] == '(') {
 		return token.substr(token.find(")") + 2);
@@ -128,8 +202,8 @@ std::string Season::read_team_name_from_scores_file(const std::string& token) {
 	return token;
 }
 
-void Season::throw_file_error() {
-	std::cerr << "Error: could not load teams file" << std::endl;
+void Season::throw_file_error(std::string file_name) {
+	std::cerr << "Error: could not load file " << file_name << std::endl;
 	exit(1);
 }
 
