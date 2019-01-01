@@ -1,6 +1,10 @@
 # Mayerhofer System
 College football ranking algorithm. Ranks teams based on who they play (power 5, G5, or FCS), record of the opponent, and how much a team wins/loses by.
 
+This is not meant to rank teams by strength, rather by resume. Thus, this is not a predictive model, but rather a way to rank the teams "fairly."
+
+Despite this, I have added predictive capabilities, see in "Ways to run." The model will predict the winner of a game based on whoever is ranked higher in the Mayerhofer system. Predictions are not dependent on the location of games, injuries, or any other factors that usually impact the outcome of a game. Simply based on teams' resumes.
+
 # Ways to run:
 * Print FBS rankings:
 	* Run ./mayerhofer\_rankings &lt;team\_file> &lt;scores\_file>
