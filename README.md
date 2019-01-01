@@ -9,9 +9,9 @@ College football ranking algorithm. Ranks teams based on who they play (power 5,
 	* Run ./mayerhofer\_rankings &lt;team\_file> &lt;scores\_file> &lt;predictions\_file> P
 	* Prints the games in the &lt;predictions\_file>
 * Check prediction success of games:
-	* Run ./mayerhofer\_rankings &lt;team\_file> &lt;scores\_file> &lt;results\_file> R
-	* In &lt;scores\_file> there should only be scores leading up to the games in &lt;results\_file>
-	* Prints the games in the &lt;results\_file> and whether they were predicted correctly or not
+	* Run ./mayerhofer\_rankings &lt;team\_file> &lt;scores\_file> &lt;predictions\_file> R
+	* In &lt;scores\_file> there should only be scores leading up to the games in &lt;predictions\_file>
+	* Prints the games in the &lt;predictions\_file> and whether they were predicted correctly or not
 
 # Files:
 
