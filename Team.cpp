@@ -49,7 +49,7 @@ double Team::calculate_ranking_points() {
 }
 
 void Team::print() {
-	std::cout << name << ": " << wins << "-" << losses << " (" << get_win_percentage() << ")" << " (" << calculate_ranking_points() << ")";
+	std::cout << name << ": " << wins << "-" << losses << " (" << calculate_ranking_points() << ")";
 }
 
 double Team::ranking_points_for_game(Game* game) {
