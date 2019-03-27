@@ -1,84 +1,39 @@
-5,2,Aug 30 2018,8:00 PM,Thu,Alabama-Birmingham,52,,Savannah State,0,,Legion Field - Birmingham Alabama
-6,2,Aug 30 2018,7:00 PM,Thu,Ball State,42,,Central Connecticut State,6,,Scheumann Stadium - Muncie Indiana
-7,2,Aug 30 2018,10:00 PM,Thu,California-Davis,44,@,San Jose State,38,,CEFCU Stadium - San Jose California
-8,2,Aug 30 2018,7:00 PM,Thu,(21) Central Florida,56,@,Connecticut,17,,Pratt & Whitney Stadium at Rentschler Field - East Hartford Connecticut
-9,2,Aug 30 2018,7:00 PM,Thu,Georgia State,24,,Kennesaw State,20,,Georgia State Stadium - Atlanta Georgia
-10,2,Aug 30 2018,8:00 PM,Thu,Louisiana-Monroe,34,,Southeastern Louisiana,31,,Malone Stadium - Monroe Louisiana
-11,2,Aug 30 2018,7:00 PM,Thu,Minnesota,48,,New Mexico State,10,,TCF Bank Stadium - Minneapolis Minnesota
-12,2,Aug 30 2018,8:00 PM,Thu,Northwestern,31,@,Purdue,27,,Ross-Ade Stadium - West Lafayette Indiana
-13,2,Aug 30 2018,8:00 PM,Thu,Oklahoma State,58,,Missouri State,17,,Boone Pickens Stadium - Stillwater Oklahoma
-14,2,Aug 30 2018,8:30 PM,Thu,Texas A&M,59,,Northwestern State,7,,Kyle Field - College Station Texas
-15,2,Aug 30 2018,8:00 PM,Thu,Utah,41,,Weber State,10,,Rice-Eccles Stadium - Salt Lake City Utah
-16,2,Aug 30 2018,8:00 PM,Thu,Wake Forest,23,@,Tulane,17,,Yulman Stadium - New Orleans Louisiana
-17,2,Aug 31 2018,9:30 PM,Fri,Colorado,45,,Colorado State,13,,Broncos Stadium at Mile High - Denver Colorado
-18,2,Aug 31 2018,7:00 PM,Fri,Duke,34,,Army,14,,Wallace Wade Stadium - Durham North Carolina
-19,2,Aug 31 2018,6:30 PM,Fri,Eastern Michigan,51,,Monmouth,17,,Rynearson Stadium - Ypsilanti Michigan
-20,2,Aug 31 2018,7:00 PM,Fri,(11) Michigan State,38,,Utah State,31,,Spartan Stadium - East Lansing Michigan
-21,2,Aug 31 2018,9:00 PM,Fri,Nevada,72,,Portland State,19,,MacKay Stadium - Reno Nevada
-22,2,Aug 31 2018,9:00 PM,Fri,(13) Stanford,31,,San Diego State,10,,Stanford Stadium - Stanford California
-23,2,Aug 31 2018,6:00 PM,Fri,Syracuse,55,@,Western Michigan,42,,Waldo Stadium - Kalamazoo Michigan
-24,2,Aug 31 2018,9:00 PM,Fri,(4) Wisconsin,34,,Western Kentucky,3,,Camp Randall Stadium - Madison Wisconsin
-25,2,Sep 1 2018,2:00 PM,Sat,Air Force,38,,Stony Brook,0,,Falcon Stadium - Colorado Springs Colorado
-26,2,Sep 1 2018,8:00 PM,Sat,(1) Alabama,51,,Louisville,14,,Camping World Stadium - Orlando Florida
-27,2,Sep 1 2018,10:30 PM,Sat,Arizona State,49,,Texas-San Antonio,7,,Sun Devil Stadium - Tempe Arizona
-28,2,Sep 1 2018,4:00 PM,Sat,Arkansas,55,,Eastern Illinois,20,,Donald W. Reynolds Razorback Stadium - Fayetteville Arkansas
-29,2,Sep 1 2018,7:00 PM,Sat,Arkansas State,48,,Southeast Missouri State,21,,Centennial Bank Stadium - Jonesboro Arkansas
-30,2,Sep 1 2018,3:30 PM,Sat,(9) Auburn,21,,(6) Washington,16,,Mercedes-Benz Stadium - Atlanta Georgia
-31,2,Sep 1 2018,8:00 PM,Sat,Baylor,55,,Abilene Christian,27,,McLane Stadium - Waco Texas
-32,2,Sep 1 2018,6:00 PM,Sat,(22) Boise State,56,@,Troy,20,,Veterans Memorial Stadium - Troy Alabama
-33,2,Sep 1 2018,1:00 PM,Sat,Boston College,55,,Massachusetts,21,,Alumni Stadium - Chestnut Hill Massachusetts
-34,2,Sep 1 2018,10:45 PM,Sat,Brigham Young,28,@,Arizona,23,,Arizona Stadium - Tucson Arizona
-35,2,Sep 1 2018,6:00 PM,Sat,Buffalo,48,,Delaware State,10,,UB Stadium - Buffalo New York
-36,2,Sep 1 2018,4:00 PM,Sat,California,24,,North Carolina,17,,California Memorial Stadium - Berkeley California
-37,2,Sep 1 2018,6:00 PM,Sat,Charlotte,34,,Fordham,10,,Jerry Richardson Stadium - Charlotte North Carolina
-38,2,Sep 1 2018,7:00 PM,Sat,Cincinnati,26,@,UCLA,17,,Rose Bowl - Pasadena California
-39,2,Sep 1 2018,12:20 PM,Sat,(2) Clemson,48,,Furman,7,,Clemson Memorial Stadium - Clemson South Carolina
-40,2,Sep 1 2018,7:30 PM,Sat,Florida,53,,Charleston Southern,6,,Ben Hill Griffin Stadium - Gainesville Florida
-41,2,Sep 1 2018,10:00 PM,Sat,Fresno State,79,,Idaho,13,,Bulldog Stadium - Fresno California
-42,2,Sep 1 2018,3:30 PM,Sat,(3) Georgia,45,,Austin Peay,0,,Sanford Stadium - Athens Georgia
-43,2,Sep 1 2018,6:00 PM,Sat,Georgia Southern,37,,South Carolina State,6,,Allen E. Paulson Stadium - Statesboro Georgia
-44,2,Sep 1 2018,12:30 PM,Sat,Georgia Tech,41,,Alcorn State,0,,Bobby Dodd Stadium - Atlanta Georgia
-45,2,Sep 1 2018,11:00 PM,Sat,Hawaii,59,,Navy,41,,Aloha Stadium - Honolulu Hawaii
-46,2,Sep 1 2018,12:00 PM,Sat,Houston,45,@,Rice,27,,Rice Stadium - Houston Texas
-47,2,Sep 1 2018,12:00 PM,Sat,Illinois,31,,Kent State,24,,Memorial Stadium - Champaign Illinois
-48,2,Sep 1 2018,7:00 PM,Sat,Indiana,38,@,Florida International,28,,Riccardo Silva Stadium - Miami Florida
-49,2,Sep 1 2018,3:30 PM,Sat,Iowa,33,,Northern Illinois,7,,Kinnick Stadium - Iowa City Iowa
-50,2,Sep 1 2018,7:00 PM,Sat,Kansas State,27,,South Dakota,24,,Bill Snyder Family Stadium - Manhattan Kansas
-51,2,Sep 1 2018,3:30 PM,Sat,Kentucky,35,,Central Michigan,20,,Kroger Field - Lexington Kentucky
-52,2,Sep 1 2018,6:00 PM,Sat,Liberty,52,,Old Dominion,10,,Williams Stadium - Lynchburg Virginia
-53,2,Sep 1 2018,7:00 PM,Sat,Louisiana,49,,Grambling State,17,,Cajun Field - Lafayette Louisiana
-54,2,Sep 1 2018,7:00 PM,Sat,Louisiana Tech,30,@,South Alabama,26,,Ladd-Peebles Stadium - Mobile Alabama
-55,2,Sep 1 2018,7:00 PM,Sat,Marshall,35,@,Miami (OH),28,,Fred Yager Stadium - Oxford Ohio
-56,2,Sep 1 2018,12:00 PM,Sat,Maryland,34,,(23) Texas,29,,FedExField - Landover Maryland
-57,2,Sep 1 2018,7:00 PM,Sat,Memphis,66,,Mercer,14,,Liberty Bowl Memorial Stadium - Memphis Tennessee
-58,2,Sep 1 2018,12:00 PM,Sat,Mississippi,47,,Texas Tech,27,,NRG Stadium - Houston Texas
-59,2,Sep 1 2018,7:30 PM,Sat,(18) Mississippi State,63,,Stephen F. Austin,6,,Davis Wade Stadium - Starkville Mississippi
-60,2,Sep 1 2018,4:00 PM,Sat,Missouri,51,,Tennessee-Martin,14,,Memorial Stadium/Faurot Field - Columbia Missouri
-61,2,Sep 1 2018,8:00 PM,Sat,New Mexico,62,,Incarnate Word,30,,Dreamstyle Stadium - Albuquerque New Mexico
-62,2,Sep 1 2018,7:00 PM,Sat,Nicholls State,26,@,Kansas,23,,Memorial Stadium - Lawrence Kansas
-63,2,Sep 1 2018,12:00 PM,Sat,North Carolina State,24,,James Madison,13,,Carter-Finley Stadium - Raleigh North Carolina
-64,2,Sep 1 2018,7:30 PM,Sat,North Texas,46,,Southern Methodist,23,,Apogee Stadium - Denton Texas
-65,2,Sep 1 2018,7:30 PM,Sat,Northern Arizona,30,@,Texas-El Paso,10,,Sun Bowl - El Paso Texas
-66,2,Sep 1 2018,7:30 PM,Sat,(12) Notre Dame,24,,(14) Michigan,17,,Notre Dame Stadium - South Bend Indiana
-67,2,Sep 1 2018,2:00 PM,Sat,Ohio,38,,Howard,32,,Peden Stadium - Athens Ohio
-68,2,Sep 1 2018,12:00 PM,Sat,(5) Ohio State,77,,Oregon State,31,,Ohio Stadium - Columbus Ohio
-69,2,Sep 1 2018,12:00 PM,Sat,(7) Oklahoma,63,,Florida Atlantic,14,,Gaylord Family - Oklahoma Memorial Stadium - Norman Oklahoma
-70,2,Sep 1 2018,8:00 PM,Sat,(24) Oregon,58,,Bowling Green State,24,,Autzen Stadium - Eugene Oregon
-71,2,Sep 1 2018,3:30 PM,Sat,(10) Penn State,45,,Appalachian State,38,,Beaver Stadium - University Park Pennsylvania
-72,2,Sep 1 2018,3:30 PM,Sat,Pittsburgh,33,,Albany,7,,Heinz Field - Pittsburgh Pennsylvania
-73,2,Sep 1 2018,12:00 PM,Sat,Rutgers,35,,Texas State,7,,High Point Solutions Stadium - Piscataway New Jersey
-74,2,Sep 1 2018,12:00 PM,Sat,South Carolina,49,,Coastal Carolina,15,,Williams-Brice Stadium - Columbia South Carolina
-75,2,Sep 1 2018,6:00 PM,Sat,South Florida,34,,Elon,14,,Raymond James Stadium - Tampa Florida
-76,2,Sep 1 2018,4:00 PM,Sat,(15) Southern California,43,,Nevada-Las Vegas,21,,Los Angeles Memorial Coliseum - Los Angeles California
-77,2,Sep 1 2018,7:00 PM,Sat,Southern Mississippi,55,,Jackson State,7,,M. M. Roberts Stadium - Hattiesburg Mississippi
-78,2,Sep 1 2018,12:00 PM,Sat,(16) Texas Christian,55,,Southern,7,,Amon G. Carter Stadium - Fort Worth Texas
-79,2,Sep 1 2018,7:00 PM,Sat,Toledo,66,,Virginia Military Institute,3,,Glass Bowl - Toledo Ohio
-80,2,Sep 1 2018,7:00 PM,Sat,Tulsa,38,,Central Arkansas,27,,Skelly Field at H.A. Chapman Stadium - Tulsa Oklahoma
-81,2,Sep 1 2018,7:30 PM,Sat,Vanderbilt,35,,Middle Tennessee State,7,,Vanderbilt Stadium - Nashville Tennessee
-82,2,Sep 1 2018,12:00 PM,Sat,Villanova,19,@,Temple,17,,Lincoln Financial Field - Philadelphia Pennsylvania
-83,2,Sep 1 2018,6:00 PM,Sat,Virginia,42,,Richmond,13,,Scott Stadium - Charlottesville Virginia
-84,2,Sep 1 2018,3:30 PM,Sat,Washington State,41,@,Wyoming,19,,Jonah Field War Memorial Stadium - Laramie Wyoming
-85,2,Sep 1 2018,3:30 PM,Sat,(17) West Virginia,40,,Tennessee,14,,Bank of America Stadium - Charlotte North Carolina
-86,2,Sep 2 2018,7:30 PM,Sun,(25) Louisiana State,33,,(8) Miami (FL),17,,AT&T Stadium - Arlington Texas
-87,2,Sep 2 2018,3:30 PM,Sun,North Carolina A&T,28,@,East Carolina,23,,Dowdy-Ficklen Stadium - Greenville North Carolina
-88,2,Sep 3 2018,8:00 PM,Mon,(20) Virginia Tech,24,@,(19) Florida State,3,,Doak Campbell Stadium - Tallahassee Florida
+846,17,Dec 15 2018,9:00 PM,Sat,Appalachian State,45,,Middle Tennessee State,13,,New Orleans Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+847,17,Dec 15 2018,3:30 PM,Sat,(19) Fresno State,31,,Arizona State,20,,Las Vegas Bowl (Sam Boyd Stadium - Las Vegas Nevada)
+848,17,Dec 15 2018,5:30 PM,Sat,Georgia Southern,23,,Eastern Michigan,21,,Camellia Bowl (Cramton Bowl - Montgomery Alabama)
+849,17,Dec 15 2018,1:30 PM,Sat,Tulane,41,,Louisiana,24,,AutoNation Cure Bowl (Camping World Stadium - Orlando Florida)
+850,17,Dec 15 2018,2:00 PM,Sat,Utah State,52,,North Texas,13,,New Mexico Bowl (Dreamstyle Stadium - Albuquerque New Mexico)
+851,18,Dec 18 2018,7:00 PM,Tue,Alabama-Birmingham,37,,Northern Illinois,13,,Boca Raton Bowl (FAU Football Stadium - Boca Raton Florida)
+852,18,Dec 19 2018,8:00 PM,Wed,Ohio,27,,San Diego State,0,,Frisco Bowl (Toyota Stadium - Frisco Texas)
+853,18,Dec 20 2018,8:00 PM,Thu,Marshall,38,@,South Florida,20,,Bad Boy Mowers Gasparilla Bowl (Raymond James Stadium - Tampa Florida)
+854,18,Dec 21 2018,4:00 PM,Fri,Brigham Young,49,,Western Michigan,18,,Famous Idaho Potato Bowl (Albertsons Stadium - Boise Idaho)
+855,18,Dec 21 2018,12:30 PM,Fri,Florida International,35,,Toledo,32,,Bahamas Bowl (Thomas Robinson Stadium - Nassau BHS)
+856,18,Dec 22 2018,3:30 PM,Sat,(22) Army,70,,Houston,14,,Armed Forces Bowl (Amon G. Carter Stadium - Fort Worth Texas)
+857,18,Dec 22 2018,10:30 PM,Sat,Louisiana Tech,31,,Hawaii,14,,Hawaii Bowl (Aloha Stadium - Honolulu Hawaii)
+858,18,Dec 22 2018,7:00 PM,Sat,Troy,42,,Buffalo,32,,Dollar General Bowl (Ladd-Peebles Stadium - Mobile Alabama)
+859,18,Dec 22 2018,12:00 PM,Sat,Wake Forest,37,,Memphis,34,,Birmingham Bowl (Legion Field - Birmingham Alabama)
+860,19,Dec 26 2018,5:15 PM,Wed,Minnesota,34,,Georgia Tech,10,,Quick Lane Bowl (Ford Field - Detroit Michigan)
+861,19,Dec 26 2018,9:00 PM,Wed,Texas Christian,10,,California,7,,Cheez-It Bowl (Chase Field - Phoenix Arizona)
+862,19,Dec 27 2018,9:00 PM,Thu,Baylor,45,,Vanderbilt,38,,Texas Bowl (NRG Stadium - Houston Texas)
+863,19,Dec 27 2018,1:30 PM,Thu,Duke,56,,Temple,27,,Independence Bowl (Independence Stadium - Shreveport Louisiana)
+864,19,Dec 27 2018,5:15 PM,Thu,Wisconsin,35,,Miami (FL),3,,Pinstripe Bowl (Yankee Stadium - New York New York)
+865,19,Dec 28 2018,1:30 PM,Fri,Auburn,63,,Purdue,14,,Music City Bowl (Nissan Stadium - Nashville Tennessee)
+866,19,Dec 28 2018,5:15 PM,Fri,(17) Syracuse,34,,(15) West Virginia,18,,Camping World Bowl (Camping World Stadium - Orlando Florida)
+867,19,Dec 28 2018,9:00 PM,Fri,(12) Washington State,28,,(25) Iowa State,26,,Alamo Bowl (Alamodome - San Antonio Texas)
+868,19,Dec 29 2018,8:00 PM,Sat,(1) Alabama,45,,(4) Oklahoma,34,,Orange Bowl (Hard Rock Stadium - Miami Gardens Florida)
+869,19,Dec 29 2018,4:00 PM,Sat,(2) Clemson,30,,(3) Notre Dame,3,,Cotton Bowl (AT&T Stadium - Arlington Texas)
+870,19,Dec 29 2018,12:00 PM,Sat,(10) Florida,41,,(8) Michigan,15,,Peach Bowl (Mercedes-Benz Stadium - Atlanta Georgia)
+871,19,Dec 29 2018,1:15 PM,Sat,Nevada,16,,Arkansas State,13,,Arizona Bowl (Arizona Stadium - Tucson Arizona)
+872,19,Dec 29 2018,12:00 PM,Sat,Virginia,28,,South Carolina,0,,Belk Bowl (Bank of America Stadium - Charlotte North Carolina)
+873,20,Dec 31 2018,12:00 PM,Mon,Cincinnati,35,,Virginia Tech,31,,Military Bowl (Navy-Marine Corps Memorial Stadium - Annapolis Maryland)
+874,20,Dec 31 2018,7:00 PM,Mon,Northwestern,31,,(20) Utah,20,,Holiday Bowl (SDCCU Stadium - San Diego California)
+875,20,Dec 31 2018,3:45 PM,Mon,Oklahoma State,38,,(24) Missouri,33,,Liberty Bowl (Liberty Bowl Memorial Stadium - Memphis Tennessee)
+876,20,Dec 31 2018,3:00 PM,Mon,Oregon,7,,Michigan State,6,,Redbox Bowl (Levi's Stadium - Santa Clara California)
+877,20,Dec 31 2018,2:00 PM,Mon,Stanford,14,,Pittsburgh,13,,Sun Bowl (Sun Bowl - El Paso Texas)
+878,20,Dec 31 2018,7:30 PM,Mon,(21) Texas A&M,52,,North Carolina State,13,,Gator Bowl (TIAA Bank Field - Jacksonville Florida)
+879,21,Jan 1 2019,12:00 PM,Tue,Iowa,27,,(18) Mississippi State,22,,Outback Bowl (Raymond James Stadium - Tampa Florida)
+880,21,Jan 1 2019,1:00 PM,Tue,(16) Kentucky,27,,(13) Penn State,24,,Citrus Bowl (Camping World Stadium - Orlando Florida)
+881,21,Jan 1 2019,1:00 PM,Tue,(11) Louisiana State,40,,(7) Central Florida,32,,Fiesta Bowl (State Farm Stadium - Glendale Arizona)
+882,21,Jan 1 2019,5:00 PM,Tue,(5) Ohio State,28,,(9) Washington,23,,Rose Bowl (Rose Bowl - Pasadena California)
+883,21,Jan 1 2019,8:45 PM,Tue,(14) Texas,28,,(6) Georgia,21,,Sugar Bowl (Mercedes-Benz Superdome - New Orleans Louisiana)
+884,21,Jan 7 2019,8:00 PM,Mon,(2) Clemson,44,,(1) Alabama,16,,College Football Championship (Levi's Stadium - Santa Clara California)
