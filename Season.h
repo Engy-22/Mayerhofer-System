@@ -29,6 +29,7 @@ private:
 	std::string read_team_name_from_scores_file(const std::string& token);
 	void throw_file_error(std::string file_name);
 	void throw_conf_type_error(char conf_type);
+	void throw_team_does_not_exist_error(std::string team_name);
 
 	void generate_mayerhofer_rankings();  // uses the mayerhofer algorithm
 };

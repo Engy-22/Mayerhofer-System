@@ -173,6 +173,12 @@ void Season::create_game(std::istringstream& stream, std::string token, char del
 
 	read_game(winner_name, winner_score, loser_name, loser_score, stream, token, delimiter);
 
+	// Check if team exists
+	if (teams.count(winner_name) == 0)
+		throw_team_does_not_exist_error(winner_name);
+	if (teams.count(loser_name) == 0)
+		throw_team_does_not_exist_error(loser_name);
+
 	Team* winning_team = teams.at(winner_name);
 	Team* losing_team = teams.at(loser_name);
 	Game* game = new Game(winning_team, losing_team, winner_score, loser_score);
@@ -209,6 +215,11 @@ void Season::throw_file_error(std::string file_name) {
 
 void Season::throw_conf_type_error(char conf_type) {
 	std::cerr << "Error in teams file: Expected P, G or F but got " << "'" << conf_type << "'" << std::endl;
+	exit(1);
+}
+
+void Season::throw_team_does_not_exist_error(std::string team_name) {
+	std::cerr << "Error: team named \'" << team_name << "\' does not exist in Teams file" << std::endl;
 	exit(1);
 }
 
