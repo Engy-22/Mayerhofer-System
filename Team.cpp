@@ -44,7 +44,7 @@ double Team::calculate_ranking_points() {
 		ranking_points += ranking_points_for_game(game_ptr);
 	}
 	ranking_points = ranking_points / (wins + losses);  // FIXME: adjust for games played
-	ranking_points *= 10;  // FIXME: just to look nice when adjusting for games played
+	ranking_points /= 10;  // FIXME: just to look nice when adjusting for games played
 	return ranking_points;
 }
 
@@ -109,9 +109,6 @@ int Team::convert_win_pct_to_ranking_points_for_loss(double win_pct, char opp_co
 }
 
 double Team::add_rank_points_for_score_margin(double r_points, int winner_score, int loser_score) {
-	if ((winner_score - loser_score) > 60)  // changed from 30 to 60
-		r_points += r_points * 1;  // changed from 0.25 to 1
-	else
-		r_points += r_points * 1 * static_cast<double>(winner_score - loser_score) / 60.0; // changed to 1 and 60
+	r_points += r_points * static_cast<double>(winner_score - loser_score) / 30.0;
 	return r_points;
 }
