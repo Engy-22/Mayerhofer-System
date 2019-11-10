@@ -1,6 +1,7 @@
 #include "Team.h"
 #include "Game.h"
 #include <iomanip>
+#include <math.h>
 
 Team::Team(std::string team_name, char conf_type) : name(team_name), conf(conf_type), wins(0), losses(0), ranking_points(0) {
 
@@ -43,8 +44,8 @@ double Team::calculate_ranking_points() {
 	for (Game* game_ptr : games) {
 		ranking_points += ranking_points_for_game(game_ptr);
 	}
-	ranking_points = ranking_points / (wins + losses);  // FIXME: adjust for games played
-	ranking_points /= 10;  // FIXME: just to look nice when adjusting for games played
+	ranking_points = ranking_points;  // FIXME: adjust for games played
+	//ranking_points /= 10;  // FIXME: just to look nice when adjusting for games played
 	return ranking_points;
 }
 
@@ -109,6 +110,7 @@ int Team::convert_win_pct_to_ranking_points_for_loss(double win_pct, char opp_co
 }
 
 double Team::add_rank_points_for_score_margin(double r_points, int winner_score, int loser_score) {
-	r_points += r_points * static_cast<double>(winner_score - loser_score) / 30.0;
+	//r_points += r_points * static_cast<double>(winner_score - loser_score) / 30.0; // linear function
+	r_points += r_points * log2((winner_score - loser_score + 30.0) / 30.0); // logarithmic function
 	return r_points;
 }
